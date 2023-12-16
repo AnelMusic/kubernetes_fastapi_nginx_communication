@@ -39,6 +39,10 @@ run.bat
 (https://github.com/AnelMusic/kubernetes_fastapi_nginx_communication/fork)
 
 #### 2. Run convenienec script:
+```bash
+run.bat
+```
+
 > Builds docker image tagged as anemus/simple_fast_api  <-- Chose tag you like </br>
 > Pushes docker image tagged as anemus/simple_fast_api to dockerhub  <-- make sure your dockerhub is setup </br>
 > Applies (Deploys) the fastapi and nginx deployments. </br>
@@ -52,9 +56,7 @@ run.bat
 > docker push anemus/simple_fast_api </br>
 > echo Done pushing Docker image to hub </br>
 
-```bash
-run.bat
-```
+
 
 #### Note: Make sure minikube is running + that on windows powershell is executed in admin mode
 
