@@ -40,17 +40,17 @@ run.bat
 
 #### 2. Run convenienec script:
 > Builds docker image tagged as anemus/simple_fast_api  <-- Chose tag you like </br>
-> Pushes docker image tagged as anemus/simple_fast_api to dockerhub  <-- make sure your dockerhub is setup
-> Applies (Deploys) the fastapi and nginx deployments.
-> Note: In case you dont want to push your own image to dockerhub you can remove the first part from the bash file:
-
-- echo Building Docker image...
-- cd src
-- docker build . -t anemus/simple_fast_api
-- echo Done building Docker image
-- echo Pushing Docker image to Docker Hub...
-- docker push anemus/simple_fast_api
-- echo Done pushing Docker image to hub 
+> Pushes docker image tagged as anemus/simple_fast_api to dockerhub  <-- make sure your dockerhub is setup </br>
+> Applies (Deploys) the fastapi and nginx deployments. </br>
+> Note: In case you dont want to push your own image to dockerhub you can remove the first part from the bash file:</br>
+> echo Building Docker image... </br>
+> cd src </br>
+> docker build . -t anemus/simple_fast_api </br>
+> cho Done building Docker image </br>
+> 
+> echo Pushing Docker image to Docker Hub... </br>
+> docker push anemus/simple_fast_api </br>
+> echo Done pushing Docker image to hub </br>
 
 ```bash
 run.bat
