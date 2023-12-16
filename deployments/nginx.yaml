@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx
+spec:
+  # Default spec is ClusterIp
+  selector:
+    app: nginx
+  ports:
+  - port: 80 # just an example port
+    # target port not needed because it will assume 80
+--- 
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  
+  template:
+    metadata:
+      labels:
+        app: nginx
+    
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "250m" #quater of cpu core 500  = half
+        ports:
+        - containerPort: 80
