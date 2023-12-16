@@ -42,7 +42,7 @@ run.bat
 > Builds docker image tagged as anemus/simple_fast_api  <-- Chose tag you like </br>
 > Pushes docker image tagged as anemus/simple_fast_api to dockerhub  <-- make sure your dockerhub is setup </br>
 > Applies (Deploys) the fastapi and nginx deployments. </br>
-> Note: In case you dont want to push your own image to dockerhub you can remove the first part from the bash file:</br>
+> **Note**: In case you dont want to push your own image to dockerhub you can remove the first part from the bash file:</br> </br>
 > echo Building Docker image... </br>
 > cd src </br>
 > docker build . -t anemus/simple_fast_api </br>
