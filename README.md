@@ -39,7 +39,7 @@ run.bat
 (https://github.com/AnelMusic/kubernetes_fastapi_nginx_communication/fork)
 
 #### 2. Run convenienec script:
-> Builds docker image tagged as anemus/simple_fast_api  <-- Chose tag you like
+> Builds docker image tagged as anemus/simple_fast_api  <-- Chose tag you like </br>
 > Pushes docker image tagged as anemus/simple_fast_api to dockerhub  <-- make sure your dockerhub is setup
 > Applies (Deploys) the fastapi and nginx deployments.
 > Note: In case you dont want to push your own image to dockerhub you can remove the first part from the bash file:
