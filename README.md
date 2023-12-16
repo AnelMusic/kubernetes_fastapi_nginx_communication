@@ -2,7 +2,7 @@
 
 Minikube-powered Kubernetes cluster setup showcasing internal and external pod communication. Demonstrates FastAPI and NGINX deployments utilizing LoadBalancer and ClusterIP services. Internal pod interaction via ClusterIP and external access through Restful API via LoadBalancer.
 
-![nginx_fastapi](https://github.com/AnelMusic/kubernetes_fastapi_nginx_communication/assets/32487291/03a7daa1-62db-4b98-b09a-03aeba7220a8)
+![nginx_fast_api_k8s](https://github.com/AnelMusic/kubernetes_fastapi_nginx_communication/assets/32487291/23c0e468-c888-440f-a8d0-1d99d641603b)
 
 - **fastapi- Pod**:
   - Exposes port 8080 internally via the `fastapi-service` to enable communication within the cluster.
